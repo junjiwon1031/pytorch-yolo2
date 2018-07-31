@@ -21,6 +21,9 @@ Convert https://pjreddie.com/darknet/yolo/ into pytorch. This repository is tryi
 ```
 wget http://pjreddie.com/media/files/yolo.weights
 python detect.py cfg/yolo.cfg yolo.weights data/dog.jpg
+
+# if you want to predict all images in a path:
+python detect_all.py cfg/yolo.cfg yolo.weights data/demo
 ```
 You will see some output like this:
 ```
